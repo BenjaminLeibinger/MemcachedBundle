@@ -1,0 +1,4 @@
+services:
+    isl.memcached:
+        class:  Isl\MemcachedBundle\Services\MemcachedService
+        arguments: [ "@service_container" ]

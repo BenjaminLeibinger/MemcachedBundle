@@ -1,0 +1,23 @@
+{
+    "name": "isl/memcached-bundle",
+    "type": "symfony-bundle",
+    "description": "Smyfony Bundle which provides integration for Memcached",
+    "keywords": ["memcached","cache"],
+    "homepage": "https://leibinger.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Leibinger",
+            "email": "bl@leibinger.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/symfony": "^2.7|^3.0"
+    },
+    "autoload": {
+        "psr-0": { "Isl\\MemcachedBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "Isl/MemcachedBundle"
+}
